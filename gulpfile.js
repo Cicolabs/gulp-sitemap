@@ -64,3 +64,17 @@ gulp.task('remove-file-extension', function () {
     }))
     .pipe(gulp.dest('./'));
 });
+
+gulp.task('comment', function () {
+    gulp.src('test/fixtures/**/*.html', {
+        read: false
+    })
+    .pipe(sitemap({
+        siteUrl: 'http://www.amazon.com/',
+        priority: '0.5',
+        changefreq: 'weekly',
+        comment: 'a message'
+    }))
+    .pipe(gulp.dest('./'));
+});
+

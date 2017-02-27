@@ -1,20 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- a message -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>http://www.amazon.com/</loc>
-        <lastmod>2016-02-27T10:00:09.095Z</lastmod>
+        <lastmod>2017-02-27T15:58:30.526Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>http://www.amazon.com/test.html</loc>
-        <lastmod>2016-02-27T10:00:09.100Z</lastmod>
+        <lastmod>2017-02-27T15:58:30.527Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>http://www.amazon.com/nested/another_index.html</loc>
+        <lastmod>2017-02-27T15:58:30.527Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>http://www.amazon.com/nested/article.html</loc>
-        <lastmod>2016-02-27T10:00:09.099Z</lastmod>
+        <lastmod>2017-02-27T15:58:30.527Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>http://www.amazon.com/nested/</loc>
+        <lastmod>2017-02-27T15:58:30.527Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
     </url>
